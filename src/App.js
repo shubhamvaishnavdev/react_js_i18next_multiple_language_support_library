@@ -50,7 +50,6 @@ const App = () => {
         <div className='flex gap-8 mt-4'>
           <button onClick={() => changeLang('en')} className='px-4 py-2 bg-green-500' >english</button>
           <button onClick={() => changeLang('fr')} className='px-4 py-2 bg-green-500' >french</button>
-          <button onClick={() => localStorage.clear()} className='px-4 py-2 bg-green-500' >reset</button>
         </div>
       </div>
     </div>
